@@ -91,7 +91,7 @@ st.write(" ")
 # Titre
 st.markdown("#  **Phase 3 : Data Scientist – Machine Learning / MLOps**")
 # Afficher l'image séparément
-st.image("architect_etape3.png", use_container_width=True)
+st.image("https://raw.githubusercontent.com/Alimiji/FILMNS_ANALYTICS/main/streamlit_app/architect_etape3.png", use_container_width=True)
 
 # ✅ Bouton HTML stylisé
 st.markdown(
