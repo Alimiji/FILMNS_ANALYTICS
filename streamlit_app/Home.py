@@ -1,33 +1,106 @@
 import streamlit as st
-import pandas as pd
-import plotly.express as px
-import os
-from pathlib import Path
-from utils import load_parquet_data
 
-
-
-# Configuration de la page
+# Interface utilisateur avec Streamlit
 st.set_page_config(
-    page_title="🏠 Accueil | FILMNS Analytics",
-    page_icon="🏠",  # Icône de l’onglet (favicon)
-    layout="wide"
+    layout="wide",
+    page_title="MovieLens Data Analysis",
+    page_icon="🎬"  # Emoji Unicode directement
 )
 
-# Contenu principal
-st.title("🏠 Bienvenue sur FILMNS Analytics")
-st.subheader("🎬 Analyse de données sur les films et les utilisateurs")
+# Conteneur pour aligner les éléments horizontalement
+col1, col2, col3 = st.columns([1, 4, 1])
 
-st.markdown("""
-Bienvenue dans le tableau de bord **FILMNS** 🎉 !
+# Colonne gauche : Image
+with col1:
+    st.image(
+        "alimiji1.jpg",  # Remplacez par le chemin de votre image
+        width=200,     # Ajustez la taille si nécessaire
+        use_container_width=False,
+    )
 
-Ici, vous pouvez :
-- 🔍 Explorer les genres de films les plus populaires
-- 👥 Analyser le comportement des utilisateurs
-- 📈 Suivre l’évolution des évaluations de films au fil des années
-- 🏆 Découvrir les meilleurs films selon les notes
+# Colonne centrale : Titre
+with col2:
+    st.markdown(
+        """
+        <h1 style='text-align: center; margin-bottom: 0;'>Exploration des Données MovieLens</h1>
+        """,
+        unsafe_allow_html=True,
+    )
 
-Utilisez le menu à gauche pour naviguer entre les pages 📂.
-""")
+# Colonne droite : Nom et lien LinkedIn
+with col3:
+    st.markdown(
+        """
+        <div style='text-align: right;'>
+            <a href="https://www.linkedin.com/in/ali-mijiyawa-946609162/" target="_blank" style='text-decoration: none; color: #0077b5;'>
+                <strong>Ali MIJIYAWA</strong>
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
-st.success("Commencez votre exploration avec le menu à gauche 👈")
+st.write(" ")
+st.write(" ")
+
+# Titre
+st.markdown("# **Phase 1 : Développeur Python / Data ingenieur & Architecte API**")
+st.write(" ")
+st.write(" ")
+# Afficher l'image séparément
+st.image("diag1.png", use_container_width=True)
+
+st.markdown(
+        """
+        <a href="https://github.com/Alimiji/dataScience-movie-backend" target="_blank">
+            <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
+                📦 Cliquer pour accéder au Code de la Phase 1
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.write(" ")
+st.write(" ")
+#st.write(" ")
+
+
+# Titre
+st.markdown("# **Phase 2 : Data Analyst - Exploration et Visualisation**")
+# Afficher l'image séparément
+st.image("architect2.png", use_container_width=True)
+
+st.markdown(
+        """
+        <a href="https://github.com/Alimiji/FILMNS_ANALYTICS" target="_blank">
+            <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
+                📊 Cliquer pour accéder au Code de la Phase 2
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
+
+
+st.write(" ")
+st.write(" ")
+#st.write(" ")
+
+
+# Titre
+st.markdown("#  **Phase 3 : Data Scientist – Machine Learning / MLOps**")
+# Afficher l'image séparément
+st.image("architect_etape3.png", use_container_width=True)
+
+# ✅ Bouton HTML stylisé
+st.markdown(
+    """
+    <a target="_blank">
+        <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
+            🤖🛠️ Code de la phase 3 est en cours ...
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
