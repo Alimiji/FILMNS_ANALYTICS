@@ -13,7 +13,7 @@ col1, col2, col3 = st.columns([1, 4, 1])
 # Colonne gauche : Image
 with col1:
     st.image(
-        "alimiji1.jpg",  # Remplacez par le chemin de votre image
+        "https://github.com/Alimiji/FILMNS_ANALYTICS/blob/main/streamlit_app/alimiji1.jpg",  # Remplacez par le chemin de votre image
         width=200,     # Ajustez la taille si nécessaire
         use_container_width=False,
     )
