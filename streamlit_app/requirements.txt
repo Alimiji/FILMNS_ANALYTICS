@@ -14,8 +14,5 @@ httpx==0.28.1
 # ML & data
 scikit-learn==1.4.2
 pandas==2.3.1
-numpy==2.2.6
 mlflow==2.12.1
-
-# Utilitaires
 python-dotenv==1.1.1
