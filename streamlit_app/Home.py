@@ -69,7 +69,7 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 2 : Data Analyst - Exploration et Visualisation**")
 # Afficher l'image séparément
-st.image("architect2.png", use_container_width=True)
+st.image("https://raw.githubusercontent.com/Alimiji/FILMNS_ANALYTICS/main/streamlit_app/architect2.png", use_container_width=True)
 
 st.markdown(
         """
