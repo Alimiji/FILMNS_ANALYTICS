@@ -8,6 +8,7 @@ pillow==11.3.0
 fastapi==0.116.1
 uvicorn==0.35.0
 pydantic==2.11.7
+pyarrow==21.0.0
 httpx==0.28.1
 
 # ML & data
