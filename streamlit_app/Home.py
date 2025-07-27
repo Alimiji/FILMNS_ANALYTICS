@@ -48,7 +48,7 @@ st.markdown("# **Phase 1 : Développeur Python / Data ingenieur & Architecte API
 st.write(" ")
 st.write(" ")
 # Afficher l'image séparément
-st.image("diag1.png", use_container_width=True)
+st.image("https://raw.githubusercontent.com/Alimiji/FILMNS_ANALYTICS/main/streamlit_app/diag1.png", use_container_width=True)
 
 st.markdown(
         """
