@@ -4,7 +4,7 @@ from pathlib import Path
 import re
 
  ##### ====== Mise en cache de l'initialisation du Client ===
-from alimiji_filmns_sdk import MovieClient, MovieConfig
+from alimiji_film_sdk import MovieClient, MovieConfig
 
 @st.cache_resource
 def get_movie_client():
