@@ -4,7 +4,10 @@
 
 ## Introduction
 
-**Objectif : Exploration et analyse des données en interrogeant l’API.**  
+**Objectif : Exploration et analyse des données en interrogeant l’API.** 
+
+Le lien de l'application: [https://alimiji-movies-analytics.streamlit.app/](https://alimiji-movies-analytics.streamlit.app/)
+
 
 🔹 **Analyse Exploratoire des Données (EDA)** :  
 - Utilisation du **SDK Python** pour requêter l’API et récupérer les données.  
@@ -161,6 +164,8 @@ touch page3.py
 ```
 
 Codes complet de l'application : voir dossier `FILMNS_ANALYTICS/streamlit_app`
+
+L'application est ensuite déployée sur streamlit dont le lien est: [https://alimiji-movies-analytics.streamlit.app/](https://alimiji-movies-analytics.streamlit.app/)
 
 ---
 
